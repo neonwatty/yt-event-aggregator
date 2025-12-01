@@ -1,0 +1,42 @@
+{
+  "videoRenderer": {
+    "videoId": "testLive001",
+    "title": { "runs": [{ "text": "LIVE NOW - Charity Stream Giveaway!" }] },
+    "ownerText": { "runs": [{ "text": "Streamer Channel" }] },
+    "longBylineText": {
+      "runs": [{
+        "text": "Streamer Channel",
+        "navigationEndpoint": {
+          "browseEndpoint": { "browseId": "UCstreamer001" }
+        }
+      }]
+    },
+    "thumbnail": {
+      "thumbnails": [
+        { "url": "https://i.ytimg.com/vi/testLive001/maxresdefault_live.jpg", "width": 1280, "height": 720 },
+        { "url": "https://i.ytimg.com/vi/testLive001/hqdefault_live.jpg", "width": 480, "height": 360 }
+      ]
+    },
+    "viewCountText": { "simpleText": "5.2K watching" },
+    "shortViewCountText": { "simpleText": "5.2K" },
+    "badges": [
+      {
+        "metadataBadgeRenderer": {
+          "style": "BADGE_STYLE_TYPE_LIVE_NOW",
+          "label": "LIVE"
+        }
+      }
+    ],
+    "thumbnailOverlays": [
+      {
+        "thumbnailOverlayTimeStatusRenderer": {
+          "style": "LIVE",
+          "text": { "simpleText": "LIVE" }
+        }
+      }
+    ],
+    "descriptionSnippet": {
+      "runs": [{ "text": "Charity stream with exclusive giveaway prizes! Donate to enter..." }]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "contents": {
+    "twoColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "itemSectionRenderer": {
+                      "contents": [
+                        {
+                          "backstagePostThreadRenderer": {
+                            "post": {
+                              "backstagePostRenderer": {
+                                "postId": "UgkxTourAnnouncement123",
+                                "authorText": { "simpleText": "Music Artist Channel" },
+                                "authorEndpoint": {
+                                  "browseEndpoint": {
+                                    "browseId": "UCmusicartist123"
+                                  }
+                                },
+                                "authorThumbnail": {
+                                  "thumbnails": [
+                                    { "url": "https://yt3.ggpht.com/artist-thumb.jpg", "width": 48, "height": 48 }
+                                  ]
+                                },
+                                "contentText": {
+                                  "runs": [
+                                    { "text": "BIG NEWS! " },
+                                    { "text": "2025 World Tour dates announced! " },
+                                    { "text": "Get your tickets now at ticketmaster.com. " },
+                                    { "text": "Can't wait to see you all on the road!" }
+                                  ]
+                                },
+                                "publishedTimeText": { "runs": [{ "text": "2 hours ago" }] },
+                                "voteCount": { "simpleText": "15K" }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "backstagePostThreadRenderer": {
+                            "post": {
+                              "backstagePostRenderer": {
+                                "postId": "UgkxGiveaway456",
+                                "authorText": { "simpleText": "Tech Reviewer" },
+                                "authorEndpoint": {
+                                  "browseEndpoint": {
+                                    "browseId": "UCtech456"
+                                  }
+                                },
+                                "authorThumbnail": {
+                                  "thumbnails": [
+                                    { "url": "https://yt3.ggpht.com/tech-thumb.jpg", "width": 48, "height": 48 }
+                                  ]
+                                },
+                                "contentText": {
+                                  "runs": [
+                                    { "text": "HUGE GIVEAWAY! " },
+                                    { "text": "I'm giving away 5 brand new phones! " },
+                                    { "text": "Like this post and subscribe to enter. " },
+                                    { "text": "Winners announced next week!" }
+                                  ]
+                                },
+                                "publishedTimeText": { "runs": [{ "text": "5 hours ago" }] },
+                                "voteCount": { "simpleText": "8.2K" }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "backstagePostThreadRenderer": {
+                            "post": {
+                              "backstagePostRenderer": {
+                                "postId": "UgkxRegularPost789",
+                                "authorText": { "simpleText": "Cooking Channel" },
+                                "authorEndpoint": {
+                                  "browseEndpoint": {
+                                    "browseId": "UCcooking789"
+                                  }
+                                },
+                                "authorThumbnail": {
+                                  "thumbnails": [
+                                    { "url": "https://yt3.ggpht.com/cooking-thumb.jpg", "width": 48, "height": 48 }
+                                  ]
+                                },
+                                "contentText": {
+                                  "runs": [
+                                    { "text": "What should I cook next? " },
+                                    { "text": "Drop your suggestions below!" }
+                                  ]
+                                },
+                                "publishedTimeText": { "runs": [{ "text": "1 day ago" }] },
+                                "voteCount": { "simpleText": "500" }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

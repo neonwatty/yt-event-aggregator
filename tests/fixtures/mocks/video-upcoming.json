@@ -1,0 +1,44 @@
+{
+  "videoRenderer": {
+    "videoId": "testUpcoming001",
+    "title": { "runs": [{ "text": "Exclusive Concert Live Stream - Don't Miss It!" }] },
+    "ownerText": { "runs": [{ "text": "Concert Channel" }] },
+    "longBylineText": {
+      "runs": [{
+        "text": "Concert Channel",
+        "navigationEndpoint": {
+          "browseEndpoint": { "browseId": "UCconcert001" }
+        }
+      }]
+    },
+    "thumbnail": {
+      "thumbnails": [
+        { "url": "https://i.ytimg.com/vi/testUpcoming001/maxresdefault.jpg", "width": 1280, "height": 720 },
+        { "url": "https://i.ytimg.com/vi/testUpcoming001/hqdefault.jpg", "width": 480, "height": 360 }
+      ]
+    },
+    "upcomingEventData": {
+      "startTime": "1735862400",
+      "upcomingEventText": { "simpleText": "Scheduled for Jan 3, 2025" }
+    },
+    "badges": [
+      {
+        "metadataBadgeRenderer": {
+          "style": "BADGE_STYLE_TYPE_LIVE_NOW",
+          "label": "UPCOMING LIVE"
+        }
+      }
+    ],
+    "thumbnailOverlays": [
+      {
+        "thumbnailOverlayTimeStatusRenderer": {
+          "style": "UPCOMING",
+          "text": { "simpleText": "UPCOMING" }
+        }
+      }
+    ],
+    "descriptionSnippet": {
+      "runs": [{ "text": "Join us for an exclusive live concert stream. Tickets available at..." }]
+    }
+  }
+}

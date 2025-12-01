@@ -1,0 +1,123 @@
+{
+  "contents": {
+    "twoColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "richGridRenderer": {
+                "contents": [
+                  {
+                    "richItemRenderer": {
+                      "content": {
+                        "videoRenderer": {
+                          "videoId": "upcoming123",
+                          "title": { "runs": [{ "text": "LIVE Q&A - Ask Me Anything!" }] },
+                          "ownerText": { "runs": [{ "text": "Gaming Channel" }] },
+                          "longBylineText": { "runs": [{ "text": "Gaming Channel", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCgaming123" } } }] },
+                          "thumbnail": {
+                            "thumbnails": [
+                              { "url": "https://i.ytimg.com/vi/upcoming123/hqdefault.jpg", "width": 480, "height": 360 }
+                            ]
+                          },
+                          "upcomingEventData": {
+                            "startTime": "1735689600",
+                            "upcomingEventText": { "simpleText": "Scheduled for Jan 1, 2025" }
+                          },
+                          "badges": [
+                            { "metadataBadgeRenderer": { "style": "BADGE_STYLE_TYPE_LIVE_NOW", "label": "UPCOMING" } }
+                          ],
+                          "thumbnailOverlays": [
+                            {
+                              "thumbnailOverlayTimeStatusRenderer": {
+                                "style": "UPCOMING",
+                                "text": { "simpleText": "UPCOMING" }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "richItemRenderer": {
+                      "content": {
+                        "videoRenderer": {
+                          "videoId": "live456",
+                          "title": { "runs": [{ "text": "Playing the new game LIVE!" }] },
+                          "ownerText": { "runs": [{ "text": "Gaming Channel" }] },
+                          "longBylineText": { "runs": [{ "text": "Gaming Channel", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCgaming123" } } }] },
+                          "thumbnail": {
+                            "thumbnails": [
+                              { "url": "https://i.ytimg.com/vi/live456/hqdefault.jpg", "width": 480, "height": 360 }
+                            ]
+                          },
+                          "viewCountText": { "simpleText": "1.2K watching" },
+                          "badges": [
+                            { "metadataBadgeRenderer": { "style": "BADGE_STYLE_TYPE_LIVE_NOW", "label": "LIVE" } }
+                          ],
+                          "thumbnailOverlays": [
+                            {
+                              "thumbnailOverlayTimeStatusRenderer": {
+                                "style": "LIVE",
+                                "text": { "simpleText": "LIVE" }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "richItemRenderer": {
+                      "content": {
+                        "videoRenderer": {
+                          "videoId": "regular789",
+                          "title": { "runs": [{ "text": "Weekly Vlog - Life Update" }] },
+                          "ownerText": { "runs": [{ "text": "Lifestyle Vlogger" }] },
+                          "longBylineText": { "runs": [{ "text": "Lifestyle Vlogger", "navigationEndpoint": { "browseEndpoint": { "browseId": "UClifestyle789" } } }] },
+                          "thumbnail": {
+                            "thumbnails": [
+                              { "url": "https://i.ytimg.com/vi/regular789/hqdefault.jpg", "width": 480, "height": 360 }
+                            ]
+                          },
+                          "lengthText": { "simpleText": "15:32" },
+                          "viewCountText": { "simpleText": "50K views" },
+                          "publishedTimeText": { "simpleText": "3 days ago" }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "richItemRenderer": {
+                      "content": {
+                        "videoRenderer": {
+                          "videoId": "premiere999",
+                          "title": { "runs": [{ "text": "BIG ANNOUNCEMENT - Watch Party Premiere!" }] },
+                          "ownerText": { "runs": [{ "text": "Music Artist Channel" }] },
+                          "longBylineText": { "runs": [{ "text": "Music Artist Channel", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCmusicartist123" } } }] },
+                          "thumbnail": {
+                            "thumbnails": [
+                              { "url": "https://i.ytimg.com/vi/premiere999/hqdefault.jpg", "width": 480, "height": 360 }
+                            ]
+                          },
+                          "upcomingEventData": {
+                            "startTime": "1735776000",
+                            "upcomingEventText": { "simpleText": "Premieres Jan 2, 2025" }
+                          },
+                          "badges": [
+                            { "metadataBadgeRenderer": { "style": "BADGE_STYLE_TYPE_SIMPLE", "label": "PREMIERE" } }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

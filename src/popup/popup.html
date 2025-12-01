@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Event Aggregator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>YT Events</h1>
+      <div class="stats" id="stats">
+        <span class="stat" id="stat-events">0 events</span>
+        <span class="stat" id="stat-streams">0 upcoming</span>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="events">Events</button>
+      <button class="tab" data-tab="upcoming">Upcoming</button>
+      <button class="tab" data-tab="posts">Posts</button>
+    </nav>
+
+    <main>
+      <section id="tab-events" class="tab-content active">
+        <div class="event-list" id="event-list">
+          <div class="empty-state">
+            <p>No events detected yet.</p>
+            <p class="hint">Browse YouTube to start collecting events from your subscriptions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-upcoming" class="tab-content">
+        <div class="event-list" id="upcoming-list">
+          <div class="empty-state">
+            <p>No upcoming streams found.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-posts" class="tab-content">
+        <div class="event-list" id="posts-list">
+          <div class="empty-state">
+            <p>No community posts collected yet.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#" id="open-youtube" class="btn">Open YouTube</a>
+      <a href="#" id="clear-data" class="btn secondary">Clear</a>
+    </footer>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
