@@ -5,7 +5,8 @@
     "src/content/content-script.js",
     "src/content/inject.js",
     "src/popup/popup.js",
-    "tests/**/*.ts"
+    "tests/**/*.ts",
+    "eslint.config.js"
   ],
   "project": [
     "src/**/*.{js,ts}",

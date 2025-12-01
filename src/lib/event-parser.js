@@ -180,7 +180,7 @@ function parseSubscription(renderer) {
       thumbnail: renderer.thumbnail?.thumbnails?.[0]?.url || '',
       extractedAt: Date.now()
     };
-  } catch (e) {
+  } catch (_e) {
     return null;
   }
 }
@@ -188,7 +188,7 @@ function parseSubscription(renderer) {
 /**
  * Main parser function - extracts all relevant items from a YouTube API response
  */
-export function parseYouTubeResponse(data, endpointType) {
+export function parseYouTubeResponse(data, _endpointType) {
   const results = {
     communityPosts: [],
     videos: [],
@@ -214,15 +214,16 @@ export function parseYouTubeResponse(data, endpointType) {
 
   for (const { type, data: rendererData } of renderers) {
     switch (type) {
-      case 'backstagePostRenderer':
+      case 'backstagePostRenderer': {
         const post = parseCommunityPost(rendererData);
         if (post) results.communityPosts.push(post);
         break;
+      }
 
       case 'videoRenderer':
       case 'richItemRenderer':
       case 'gridVideoRenderer':
-      case 'compactVideoRenderer':
+      case 'compactVideoRenderer': {
         const video = parseVideo(rendererData);
         if (video) {
           results.videos.push(video);
@@ -231,6 +232,7 @@ export function parseYouTubeResponse(data, endpointType) {
           }
         }
         break;
+      }
 
       case 'guideEntryRenderer':
         // Subscriptions from the guide sidebar

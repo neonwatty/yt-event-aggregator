@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: Knip (Unused Code Detection)
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,6 +21,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
 
       - name: Run Knip (Production Mode)
         run: npm run knip:production

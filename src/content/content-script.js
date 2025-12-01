@@ -46,7 +46,7 @@
   });
 
   // Listen for YouTube's SPA navigation events
-  document.addEventListener('yt-navigate-finish', function(event) {
+  document.addEventListener('yt-navigate-finish', function() {
     chrome.runtime.sendMessage({
       action: 'PAGE_NAVIGATED',
       url: window.location.href,

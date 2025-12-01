@@ -155,7 +155,7 @@ export function getDefaultKeywords() {
 export function validateKeywords(keywords) {
   if (!keywords || typeof keywords !== 'object') return false;
 
-  for (const [category, words] of Object.entries(keywords)) {
+  for (const [_category, words] of Object.entries(keywords)) {
     if (!Array.isArray(words)) return false;
     if (!words.every(w => typeof w === 'string')) return false;
   }

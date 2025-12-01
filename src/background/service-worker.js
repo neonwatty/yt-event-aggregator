@@ -4,7 +4,7 @@
  */
 
 import { parseYouTubeResponse, getBrowseContext } from '../lib/event-parser.js';
-import { scoreEventRelevance, matchKeywords } from '../lib/keyword-matcher.js';
+import { scoreEventRelevance } from '../lib/keyword-matcher.js';
 import {
   saveEvents,
   saveSubscriptions,
@@ -12,8 +12,7 @@ import {
   getUpcomingStreams,
   getStats,
   deleteOldEvents,
-  saveSetting,
-  getSetting
+  saveSetting
 } from '../lib/storage.js';
 
 // Track processed items to avoid duplicates within a session
@@ -23,7 +22,7 @@ const processedIds = new Set();
  * Process YouTube API data from content script
  */
 async function processYouTubeData(message) {
-  const { endpointType, data, pageUrl, timestamp } = message;
+  const { endpointType, data } = message;
 
   if (!data) return;
 

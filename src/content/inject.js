@@ -18,7 +18,7 @@
   const originalFetch = window.fetch;
 
   // Wrap fetch to intercept responses
-  window.fetch = async function(input, init) {
+  window.fetch = async function(input, _init) {
     const url = typeof input === 'string' ? input : input.url;
 
     // Call original fetch
